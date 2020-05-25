@@ -1,0 +1,17 @@
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.deps.json
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.dll
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.pdb
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.csproj.CoreCompileInputs.cache
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.AssemblyInfoInputs.cache
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.AssemblyInfo.cs
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.dll
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProduct\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.pdb
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.deps.json
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.dll
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.pdb
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.csprojAssemblyReference.cache
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.csproj.CoreCompileInputs.cache
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.AssemblyInfoInputs.cache
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.AssemblyInfo.cs
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.dll
+D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Framework\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Framework.pdb

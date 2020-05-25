@@ -1,0 +1,246 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Zhaoxi.IocDI.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Zhaoxi.IocDI.DAL": "1.0.0",
+          "Zhaoxi.IocDI.IBLL": "1.0.0",
+          "Zhaoxi.IocDI.IDAL": "1.0.0",
+          "Zhaoxi.IocDI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.BLL.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Zhaoxi.IocDI.IDAL": "1.0.0",
+          "Zhaoxi.IocDI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.DAL.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.Framework.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.IBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Zhaoxi.IocDI.DAL": "1.0.0",
+          "Zhaoxi.IocDI.IDAL": "1.0.0",
+          "Zhaoxi.IocDI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.IBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.IBLL.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.IDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Zhaoxi.IocDI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.IDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.IDAL.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.Interface.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.Model.dll": {}
+        }
+      },
+      "Zhaoxi.IocDI.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Zhaoxi.IocDI.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zhaoxi.IocDI.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zhaoxi.IocDI.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.BLL/Zhaoxi.IocDI.BLL.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.BLL/Zhaoxi.IocDI.BLL.csproj"
+    },
+    "Zhaoxi.IocDI.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.DAL/Zhaoxi.IocDI.DAL.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.DAL/Zhaoxi.IocDI.DAL.csproj"
+    },
+    "Zhaoxi.IocDI.Framework/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.Framework/Zhaoxi.IocDI.Framework.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.Framework/Zhaoxi.IocDI.Framework.csproj"
+    },
+    "Zhaoxi.IocDI.IBLL/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.IBLL/Zhaoxi.IocDI.IBLL.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.IBLL/Zhaoxi.IocDI.IBLL.csproj"
+    },
+    "Zhaoxi.IocDI.IDAL/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.IDAL/Zhaoxi.IocDI.IDAL.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.IDAL/Zhaoxi.IocDI.IDAL.csproj"
+    },
+    "Zhaoxi.IocDI.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.Interface/Zhaoxi.IocDI.Interface.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.Interface/Zhaoxi.IocDI.Interface.csproj"
+    },
+    "Zhaoxi.IocDI.Model/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.Model/Zhaoxi.IocDI.Model.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.Model/Zhaoxi.IocDI.Model.csproj"
+    },
+    "Zhaoxi.IocDI.Service/1.0.0": {
+      "type": "project",
+      "path": "../Zhaoxi.IocDI.Service/Zhaoxi.IocDI.Service.csproj",
+      "msbuildProject": "../Zhaoxi.IocDI.Service/Zhaoxi.IocDI.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Zhaoxi.IocDI.BLL >= 1.0.0",
+      "Zhaoxi.IocDI.DAL >= 1.0.0",
+      "Zhaoxi.IocDI.Framework >= 1.0.0",
+      "Zhaoxi.IocDI.IBLL >= 1.0.0",
+      "Zhaoxi.IocDI.IDAL >= 1.0.0",
+      "Zhaoxi.IocDI.Interface >= 1.0.0",
+      "Zhaoxi.IocDI.Model >= 1.0.0",
+      "Zhaoxi.IocDI.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zzm\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
+      "projectName": "Zhaoxi.IocDI.AspnetCoreProject",
+      "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
+      "packagesPath": "C:\\Users\\zzm\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.AspnetCoreProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\zzm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.BLL\\Zhaoxi.IocDI.BLL.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.BLL\\Zhaoxi.IocDI.BLL.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.DAL\\Zhaoxi.IocDI.DAL.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.DAL\\Zhaoxi.IocDI.DAL.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Framework\\Zhaoxi.IocDI.Framework.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Framework\\Zhaoxi.IocDI.Framework.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.IBLL\\Zhaoxi.IocDI.IBLL.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.IBLL\\Zhaoxi.IocDI.IBLL.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Interface\\Zhaoxi.IocDI.Interface.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Interface\\Zhaoxi.IocDI.Interface.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj"
+            },
+            "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Service\\Zhaoxi.IocDI.Service.csproj": {
+              "projectPath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.Service\\Zhaoxi.IocDI.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
