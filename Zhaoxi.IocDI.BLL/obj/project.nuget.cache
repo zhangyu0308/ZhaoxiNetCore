@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4UQimtvttgac47m6UBwMQK01lR7aB/iBbVkK731tHLsOa6kdLPIYaLgr+sL5Ik04XBqYn251gVWwopSzNmmCag==",
+  "dgSpecHash": "3s8XuGuQpPKyhhAab//LIy8coox429fFXwxw+scZU5G/O0WqHIIXh3NIFMmcMbMSur6eN+E3gNKsrbLTggHmdA==",
   "success": true,
-  "projectFilePath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.BLL\\Zhaoxi.IocDI.BLL.csproj",
+  "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.BLL\\Zhaoxi.IocDI.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

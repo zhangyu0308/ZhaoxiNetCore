@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5bTcNNDLVkj0s5SHFPqvMSIEIUcY6+X3BnCtbR068wdPleIlixxAZSYKAWbc/J/XF9naaaouul34nD/VLU6J/Q==",
+  "dgSpecHash": "7FwDC/9D6EHu2peSSBVD9FXVfH1MYnIZfru4n5UK63OKfgNKDlSPS7nUfZsnUC2d7LLV7i9Wpznj8rwJiYtqxA==",
   "success": true,
-  "projectFilePath": "D:\\project\\netcore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

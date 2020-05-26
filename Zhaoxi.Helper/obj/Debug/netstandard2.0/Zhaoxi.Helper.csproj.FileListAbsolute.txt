@@ -1,0 +1,5 @@
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.Helper\bin\Debug\netstandard2.0\Zhaoxi.Helper.deps.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.Helper\bin\Debug\netstandard2.0\Zhaoxi.Helper.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.Helper\obj\Debug\netstandard2.0\Zhaoxi.Helper.AssemblyInfoInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.Helper\obj\Debug\netstandard2.0\Zhaoxi.Helper.AssemblyInfo.cs
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.Helper\obj\Debug\netstandard2.0\Zhaoxi.Helper.csprojAssemblyReference.cache
