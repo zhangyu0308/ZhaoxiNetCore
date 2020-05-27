@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "570ECXBXhZa3Ebdx+E8EzJ7YFkRKgeDETKNZeQ3OXUVysCfWbIht8BljnC2a6opgUGlVDJjz5w9KEXbo9Gbi1A==",
+  "dgSpecHash": "IepEhErh3Qh7E9PD45jW52rvNYXrJRH1LPkbYY8nuhCJaiWKpzTzmH/8nxnYq9h1wMyuFWWlBV0QdHfKT231+Q==",
   "success": true,
   "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
   "expectedPackageFiles": [
@@ -105,7 +105,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\mongodb.driver\\2.10.4\\mongodb.driver.2.10.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mongodb.driver.core\\2.10.4\\mongodb.driver.core.2.10.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mongodb.libmongocrypt\\1.0.0\\mongodb.libmongocrypt.1.0.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
