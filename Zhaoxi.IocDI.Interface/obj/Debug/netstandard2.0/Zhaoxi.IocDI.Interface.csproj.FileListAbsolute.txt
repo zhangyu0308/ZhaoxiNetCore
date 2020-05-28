@@ -15,3 +15,12 @@ D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaox
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.AssemblyInfo.cs
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.dll
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.deps.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.csprojAssemblyReference.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.AssemblyInfoInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.AssemblyInfo.cs
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.csproj.CoreCompileInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.pdb

@@ -28,6 +28,7 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
         public IActionResult Index()
         {
             var model = this._userBLL.Login("123");
+            var userlist = this._userBLL.FindAll();
             return View();
         }
 

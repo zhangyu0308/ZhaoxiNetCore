@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Zhaoxi.IocDI.Model;
 
 namespace Zhaoxi.IocDI.IBLL
@@ -9,5 +10,7 @@ namespace Zhaoxi.IocDI.IBLL
     {
         UserModel Login(string account);
         void LastLogin(UserModel user);
+
+        Task<IEnumerable<user>> FindAll();
     }
 }

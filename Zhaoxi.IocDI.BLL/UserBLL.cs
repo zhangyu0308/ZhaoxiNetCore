@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Zhaoxi.IocDI.IBLL;
 using Zhaoxi.IocDI.IDAL;
 using Zhaoxi.IocDI.Model;
@@ -14,6 +15,7 @@ namespace Zhaoxi.IocDI.BLL
         {
             this._userDAL = userDAL;
         }
+
         public void LastLogin(UserModel user)
         {
             user.LoginTime = DateTime.Now;
@@ -23,6 +25,10 @@ namespace Zhaoxi.IocDI.BLL
         public UserModel Login(string account)
         {
             return this._userDAL.Find(u => u.Account.Equals(account));
+        }
+        public async Task<IEnumerable<user>> FindAll()
+        {
+            return await this._userDAL.FindAll();
         }
     }
 }

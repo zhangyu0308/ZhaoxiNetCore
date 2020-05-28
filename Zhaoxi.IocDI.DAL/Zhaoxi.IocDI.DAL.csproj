@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Zhaoxi.Helper\Zhaoxi.Helper.csproj" />
     <ProjectReference Include="..\Zhaoxi.IocDI.IDAL\Zhaoxi.IocDI.IDAL.csproj" />
     <ProjectReference Include="..\Zhaoxi.IocDI.Model\Zhaoxi.IocDI.Model.csproj" />
   </ItemGroup>

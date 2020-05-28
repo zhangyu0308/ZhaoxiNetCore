@@ -263,6 +263,9 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
+              "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.Helper\\Zhaoxi.Helper.csproj": {
+                "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.Helper\\Zhaoxi.Helper.csproj"
+              },
               "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {
                 "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj"
               },

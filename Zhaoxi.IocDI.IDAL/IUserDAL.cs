@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 using Zhaoxi.IocDI.Model;
 
 namespace Zhaoxi.IocDI.IDAL
@@ -10,5 +11,7 @@ namespace Zhaoxi.IocDI.IDAL
     {
         UserModel Find(Expression<Func<UserModel,bool>> expression);
         void Update(UserModel userModel);
+
+        Task<IEnumerable<user>> FindAll();
     }
 }

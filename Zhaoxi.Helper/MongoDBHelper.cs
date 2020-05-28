@@ -79,13 +79,14 @@ namespace Zhaoxi.Helper
                 this.disposed = true;
             }
         }
-        ~Connect()
+        Connect()
         {
             this.Dispose(false);
         }
     }
     #endregion
 
+    #region MongoDBHelper
     public interface IMongoDBHelper<T> where T : class, new()
     {
         Task<T> FindAsync(Expression<Func<T, bool>> Query);
@@ -126,6 +127,7 @@ namespace Zhaoxi.Helper
 
         public MongoDBHelper()
         {
+            //typeof(T)  获取类型的System.Type 对象(包含类中的所有方法、属性、字段)
             CollectionNameAttribute mongoCollectionName = (CollectionNameAttribute)typeof(T).GetTypeInfo().GetCustomAttribute(typeof(CollectionNameAttribute));
             this.CollectionName = (mongoCollectionName != null ? mongoCollectionName.Name : typeof(T).Name.ToLower());
             this.Connect = new Connect(ConnectionStr, DefaultDataBaseName);
@@ -185,5 +187,6 @@ namespace Zhaoxi.Helper
         /// </summary>
         /// <value>The name of the collection.</value>
         public virtual string Name { get; }
-    }
+    } 
+    #endregion
 }
