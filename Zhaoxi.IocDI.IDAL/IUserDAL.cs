@@ -11,7 +11,5 @@ namespace Zhaoxi.IocDI.IDAL
     {
         UserModel Find(Expression<Func<UserModel,bool>> expression);
         void Update(UserModel userModel);
-
-        Task<IEnumerable<user>> FindAll();
     }
 }

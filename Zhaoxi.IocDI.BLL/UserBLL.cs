@@ -26,9 +26,5 @@ namespace Zhaoxi.IocDI.BLL
         {
             return this._userDAL.Find(u => u.Account.Equals(account));
         }
-        public async Task<IEnumerable<user>> FindAll()
-        {
-            return await this._userDAL.FindAll();
-        }
     }
 }

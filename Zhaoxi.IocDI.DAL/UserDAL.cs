@@ -24,25 +24,6 @@ namespace Zhaoxi.IocDI.DAL
                 LoginTime = DateTime.Now
             };
         }
-        /// <summary>
-        /// new MongoDBHelper<UserModel>() 应该使用单例设计模式
-        /// </summary>
-        /// <returns></returns>
-        public async Task<IEnumerable<user>> FindAll()
-        {
-
-            try
-            {
-                var list = await new MongoDBHelper<user>().AllAsync();
-                return list;
-            }
-            catch (Exception ex)
-            {
-                var list = await new MongoDBHelper<user>().AllAsync();
-                return list;
-            }
-
-        }
 
         public void Update(UserModel userModel)
         {

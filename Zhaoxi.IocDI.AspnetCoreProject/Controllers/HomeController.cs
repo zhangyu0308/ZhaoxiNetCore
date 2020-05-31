@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Zhaoxi.Helper;
 using Zhaoxi.IocDI.AspnetCoreProject.Models;
 using Zhaoxi.IocDI.IBLL;
 using Zhaoxi.IocDI.IDAL;
+using Zhaoxi.IocDI.Model;
 
 namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
 {
@@ -25,10 +27,10 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
             this._userDAL = userDAL;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var model = this._userBLL.Login("123");
-            var userlist = this._userBLL.FindAll();
+            var userlist = await new MongoDBHelper<UserModel>().AllAsync();
             return View();
         }
 

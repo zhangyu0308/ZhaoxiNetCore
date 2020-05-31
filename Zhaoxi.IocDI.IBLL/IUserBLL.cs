@@ -11,6 +11,5 @@ namespace Zhaoxi.IocDI.IBLL
         UserModel Login(string account);
         void LastLogin(UserModel user);
 
-        Task<IEnumerable<user>> FindAll();
     }
 }
