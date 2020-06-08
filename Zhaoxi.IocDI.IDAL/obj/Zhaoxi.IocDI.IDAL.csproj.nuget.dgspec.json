@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {}
+    "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {}
   },
   "projects": {
-    "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {
+    "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj",
+        "projectUniqueName": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj",
         "projectName": "Zhaoxi.IocDI.IDAL",
-        "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\obj\\",
+        "projectPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\Zhaoxi.IocDI.IDAL.csproj",
+        "packagesPath": "C:\\Users\\zzm\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.IDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zzm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj": {
-                "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj"
+              "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj": {
+                "projectPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj"
               }
             }
           }
@@ -62,24 +62,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj": {
+    "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj",
+        "projectUniqueName": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj",
         "projectName": "Zhaoxi.IocDI.Model",
-        "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\obj\\",
+        "projectPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\Zhaoxi.IocDI.Model.csproj",
+        "packagesPath": "C:\\Users\\zzm\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zzm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,7 +128,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

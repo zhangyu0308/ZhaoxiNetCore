@@ -1,0 +1,5 @@
+D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstandard2.0\HcCrm.Util.deps.json
+D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstandard2.0\HcCrm.Util.dll
+D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfoInputs.cache
+D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfo.cs
+D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.csprojAssemblyReference.cache

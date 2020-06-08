@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\zzm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
+      "projectUniqueName": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
       "projectName": "Zhaoxi.IocDI.ConsoleProject",
-      "projectPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\obj\\",
+      "projectPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
+      "packagesPath": "C:\\Users\\zzm\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zzm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,18 +57,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
