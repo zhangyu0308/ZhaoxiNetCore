@@ -34,10 +34,6 @@ namespace HcCrm.Util
         {
             try
             {
-                IConfigurationRoot configuration = new ConfigurationBuilder()
-                                   .SetBasePath(Directory.GetCurrentDirectory())
-                                   .AddJsonFile("appsettings.json")
-                                   .Build();
 
                 return configuration.GetSection(keypath).Value;
             }
