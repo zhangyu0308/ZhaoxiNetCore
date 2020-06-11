@@ -30,7 +30,9 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
         public async Task<IActionResult> Index()
         {
             var model = this._userBLL.Login("123");
-            var userlist = await new MongoDBHelper<UserModel>().AllAsync();
+            var userlist = new MongoDBHelperTest<user>().AllAsync();
+
+            ViewBag.userlist = userlist;
             return View();
         }
 

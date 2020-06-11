@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using MongoDB.Bson;
 using System.Linq.Expressions;
+using MongoDB.Driver.Linq;
 
 namespace Zhaoxi.Helper
 {
@@ -187,6 +188,54 @@ namespace Zhaoxi.Helper
         /// </summary>
         /// <value>The name of the collection.</value>
         public virtual string Name { get; }
-    } 
+    }
     #endregion
+
+
+
+    public class MongoDBHelperTest<T> where T : class, new()
+    {
+        private string Conn { get { return HcCrm.Util.Config.GetAppsettingsValue("ConnectionString"); } }
+        private MongoClient MongoDBClient;
+        private IMongoCollection<T> collection;
+        private IMongoDatabase MongoDBDatebase;
+        private string DBName { get { return HcCrm.Util.Config.GetAppsettingsValue("Database"); } }
+
+        public MongoDBHelperTest()
+        {
+            MongoDBClient = new MongoClient(Conn);
+            MongoDBDatebase = MongoDBClient.GetDatabase(DBName);
+            Type type = typeof(T);
+            collection = MongoDBDatebase.GetCollection<T>(type.Name);
+        }
+
+        public IMongoQueryable<T> FindAsync(Expression<Func<T, bool>> Query)
+        {
+            return collection.AsQueryable<T>().Where(Query);
+        }
+
+        public IMongoQueryable<T> AllAsync()
+        {
+            return collection.AsQueryable<T>();
+        }
+
+        public void AddOnec(T Model)
+        {
+            collection.InsertOne(Model);
+        }
+        public void AddMany(params T[] Model)
+        {
+            collection.InsertMany(Model);
+        }
+
+        public void Edit(Expression<Func<T, bool>> Where, UpdateDefinition<T> Model)
+        {
+            collection.UpdateOne<T>(Where, Model);
+        }
+
+        public void Delete(Expression<Func<T, bool>> Where)
+        {
+            collection.DeleteOne<T>(Where);
+        }
+    }
 }

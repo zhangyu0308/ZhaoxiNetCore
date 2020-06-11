@@ -63,6 +63,21 @@ namespace HcCrm.Util
             }
 
         }
+        /// <summary>
+        /// 根据Key取Value值   appsettings.json 的值
+        /// </summary>
+        /// <param name="key"></param>
+        public static string GetAppsettingsValue(string keyname, string keypath = "MongoDB")
+        {
+            try
+            {
+                return configuration.GetSection(keypath).GetSection(keyname).Value;
+            }
+            catch (Exception)
+            {
+                return string.Empty;
+            }
+        }
 
     }
 }

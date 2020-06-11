@@ -41,3 +41,5 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.csproj.CopyComplete
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\HcCrm.Util.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\HcCrm.Util.pdb

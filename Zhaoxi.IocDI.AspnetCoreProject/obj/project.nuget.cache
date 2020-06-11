@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CAqFxscFKQwTignxnSIAAoWqmywRY+ZZv65oiJ3AxbTBowoay+Wx39eLpga12jYp/m7mTdkxJrR3rN/nZr5vkA==",
+  "dgSpecHash": "iLF6CcBNuCFeXiXSGjZqy7HpZf24TTpcuhO2BDN30p+bZXrT9VnkfhXx0P/NUEY3CxI1s0kAxcHgeXOkELRbAw==",
   "success": true,
   "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
   "expectedPackageFiles": [
@@ -235,8 +235,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,3 +3,12 @@ D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstand
 D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfoInputs.cache
 D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfo.cs
 D:\project\netcore\ZhaoxiNetCoreDemo\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.csprojAssemblyReference.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstandard2.0\HcCrm.Util.deps.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstandard2.0\HcCrm.Util.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\bin\Debug\netstandard2.0\HcCrm.Util.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.csprojAssemblyReference.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfoInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.AssemblyInfo.cs
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.csproj.CoreCompileInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\HcCrm.Util\obj\Debug\netstandard2.0\HcCrm.Util.pdb
