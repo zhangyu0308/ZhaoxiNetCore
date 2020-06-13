@@ -45,6 +45,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

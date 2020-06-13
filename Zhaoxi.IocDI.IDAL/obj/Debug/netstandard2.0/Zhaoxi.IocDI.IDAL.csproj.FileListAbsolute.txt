@@ -27,7 +27,7 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\bin\Debug
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.csprojAssemblyReference.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.AssemblyInfoInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.AssemblyInfo.cs
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.csproj.CoreCompileInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.csproj.CopyComplete
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IDAL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.csproj.CoreCompileInputs.cache

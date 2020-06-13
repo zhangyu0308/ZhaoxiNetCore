@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iLF6CcBNuCFeXiXSGjZqy7HpZf24TTpcuhO2BDN30p+bZXrT9VnkfhXx0P/NUEY3CxI1s0kAxcHgeXOkELRbAw==",
+  "dgSpecHash": "+50xnGh2nLFWx6MOTekGd8VhAU5eieGjLEJWGiL3BaIh+WMpF8xED0ivs1IjqUhzkUrCfU56k7uUS/9m3nI+NQ==",
   "success": true,
   "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.AspnetCoreProject\\Zhaoxi.IocDI.AspnetCoreProject.csproj",
   "expectedPackageFiles": [
@@ -117,6 +117,9 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nuget.common\\5.6.0\\nuget.common.5.6.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nuget.configuration\\5.6.0\\nuget.configuration.5.6.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nuget.frameworks\\5.6.0\\nuget.frameworks.5.6.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.1.1\\pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
@@ -157,7 +160,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.fileversioninfo\\4.3.0\\system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.process\\4.1.0\\system.diagnostics.process.4.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.process\\4.3.0\\system.diagnostics.process.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.stacktrace\\4.3.0\\system.diagnostics.stacktrace.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.textwritertracelistener\\4.0.0\\system.diagnostics.textwritertracelistener.4.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",

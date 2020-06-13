@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MongoDB.Driver;
 using Zhaoxi.Helper;
 using Zhaoxi.IocDI.AspnetCoreProject.Models;
 using Zhaoxi.IocDI.IBLL;
@@ -29,10 +30,28 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
 
         public async Task<IActionResult> Index()
         {
+            //注入方式
             var model = this._userBLL.Login("123");
-            var userlist = new MongoDBHelperTest<user>().AllAsync();
 
-            ViewBag.userlist = userlist;
+
+            //新增
+            //user user = new user();
+            //user.Account = "111";
+            //user.Age = 120;
+            //user.Name ="asdddd";
+            //this._userBLL.AddOnec(user);
+
+            //删除
+            // this._userBLL.Delete("111");
+            var user = this._userBLL.FindAll().FirstOrDefault();
+            user.Name = "zhangyusheng";
+
+            //修改方法不对
+            //this._userBLL.Edit("111",user);
+
+            //查找全部
+            var list = this._userBLL.FindAll();
+            ViewBag.UserList = list;
             return View();
         }
 

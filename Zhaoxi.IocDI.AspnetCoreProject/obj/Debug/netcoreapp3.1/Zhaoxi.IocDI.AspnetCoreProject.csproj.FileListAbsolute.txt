@@ -161,3 +161,6 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProj
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\HcCrm.Util.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\HcCrm.Util.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll

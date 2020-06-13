@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
@@ -11,6 +13,8 @@ namespace Zhaoxi.IocDI.DAL
 {
     public class UserDAL : IUserDAL
     {
+        private IMongoDBHelper<user> mongoDBHelper = new MongoDBHelper<user>();
+
         public UserModel Find(Expression<Func<UserModel, bool>> expression)
         {
             return new UserModel()
@@ -24,6 +28,27 @@ namespace Zhaoxi.IocDI.DAL
                 LoginTime = DateTime.Now
             };
         }
+
+        public List<user> FindAll()
+        {
+            return mongoDBHelper.AllAsync();
+        }
+        public void AddOnec(user Model)
+        {
+            Model._id = ObjectId.GenerateNewId();
+            mongoDBHelper.AddOnec(Model);
+        }
+
+        public void Delete(string Account)
+        {
+            mongoDBHelper.Delete(x => x.Account == Account);
+        }
+
+        public void Edit(string Account, UpdateDefinition<user> Model)
+        {
+            mongoDBHelper.Edit(x => x.Account == Account, Model);
+        }
+
 
         public void Update(UserModel userModel)
         {
