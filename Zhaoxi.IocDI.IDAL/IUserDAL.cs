@@ -10,12 +10,11 @@ namespace Zhaoxi.IocDI.IDAL
 {
     public interface IUserDAL
     {
-        UserModel Find(Expression<Func<UserModel, bool>> expression);
-        void Update(UserModel userModel);
-
-        List<user> FindAll();
-        void AddOnec(user Model);
-        void Edit(string Account, UpdateDefinition<user> Model);
-        void Delete(string Account);
+        List<user> FindListByPage(FilterDefinition<user> filter, int pageIndex, int pageSize, string[] field = null, SortDefinition<user> sort = null);
+        List<user> FindListAsync(FilterDefinition<user> filter, SortDefinition<user> sort = null);
+        user FindOne(string account);
+        bool AddOnec(user Model);
+        bool Edit(string account, user Model);
+        bool Delete(string account);
     }
 }

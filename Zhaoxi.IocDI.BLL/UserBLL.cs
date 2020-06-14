@@ -17,35 +17,31 @@ namespace Zhaoxi.IocDI.BLL
             this._userDAL = userDAL;
         }
 
-        public void LastLogin(UserModel user)
+        public List<user> FindListByPage(FilterDefinition<user> filter, int pageIndex, int pageSize, string[] field = null, SortDefinition<user> sort = null)
         {
-            user.LoginTime = DateTime.Now;
-            this._userDAL.Update(user);
+            return this._userDAL.FindListByPage(filter, pageIndex, pageSize, field, sort);
+        }
+        public List<user> FindListAsync(FilterDefinition<user> filter, SortDefinition<user> sort = null)
+        {
+            return this._userDAL.FindListAsync(filter, sort);
+        }
+        public user FindOne(string account)
+        {
+            return this._userDAL.FindOne(account);
+        }
+        public bool AddOnec(user Model)
+        {
+            return this._userDAL.AddOnec(Model);
         }
 
-        public UserModel Login(string account)
+        public bool Delete(string account)
         {
-            return this._userDAL.Find(u => u.Account.Equals(account));
+            return this._userDAL.Delete(account);
         }
 
-        public void AddOnec(user Model)
+        public bool Edit(string account, user Model)
         {
-            this._userDAL.AddOnec(Model);
-        }
-
-        public void Delete(string Account)
-        {
-            this._userDAL.Delete(Account);
-        }
-
-        public void Edit(string Account, UpdateDefinition<user> Model)
-        {
-            this._userDAL.Edit(Account, Model);
-        }
-
-        public List<user> FindAll()
-        {
-            return this._userDAL.FindAll();
+            return this._userDAL.Edit(account, Model);
         }
     }
 }

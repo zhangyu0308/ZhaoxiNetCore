@@ -9,28 +9,11 @@ namespace Zhaoxi.IocDI.IBLL
 {
    public interface IUserBLL
     {
-        UserModel Login(string account);
-        void LastLogin(UserModel user);
-
-        /// <summary>
-        /// Mongodb
-        /// </summary>
-        /// <returns></returns>
-        List<user> FindAll();
-        /// <summary>
-        /// Mongodb
-        /// </summary>
-        /// <returns></returns>
-        void AddOnec(user Model);
-        /// <summary>
-        /// Mongodb
-        /// </summary>
-        /// <returns></returns>
-        void Edit(string Account, UpdateDefinition<user> Model);
-        /// <summary>
-        /// Mongodb
-        /// </summary>
-        /// <returns></returns>
-        void Delete(string Account);
+        List<user> FindListByPage(FilterDefinition<user> filter, int pageIndex, int pageSize, string[] field = null, SortDefinition<user> sort = null);
+        List<user> FindListAsync(FilterDefinition<user> filter, SortDefinition<user> sort = null);
+        user FindOne(string account);
+        bool AddOnec(user Model);
+        bool Edit(string account, user Model);
+        bool Delete(string account);
     }
 }

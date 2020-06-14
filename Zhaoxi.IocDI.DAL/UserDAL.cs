@@ -15,44 +15,32 @@ namespace Zhaoxi.IocDI.DAL
     {
         private IMongoDBHelper<user> mongoDBHelper = new MongoDBHelper<user>();
 
-        public UserModel Find(Expression<Func<UserModel, bool>> expression)
+        public List<user> FindListByPage(FilterDefinition<user> filter, int pageIndex, int pageSize, string[] field = null, SortDefinition<user> sort = null)
         {
-            return new UserModel()
-            {
-                Id = "www",
-                Name = "wwe",
-                Account = "123",
-                Email = "123@123.com",
-                Password = "456",
-                Role = "admin",
-                LoginTime = DateTime.Now
-            };
+            return mongoDBHelper.FindListByPageAsync(filter, pageIndex, pageSize, field, sort).Result;
         }
-
-        public List<user> FindAll()
+        public List<user> FindListAsync(FilterDefinition<user> filter, SortDefinition<user> sort = null)
         {
-            return mongoDBHelper.AllAsync();
+            return mongoDBHelper.FindListAsync(filter, sort).Result;
         }
-        public void AddOnec(user Model)
+        public user FindOne(string account)
+        {
+            return mongoDBHelper.FindOneAsync(account).Result;
+        }
+        public bool AddOnec(user Model)
         {
             Model._id = ObjectId.GenerateNewId();
-            mongoDBHelper.AddOnec(Model);
+            return mongoDBHelper.AddOnecAsync(Model).Result > 0 ? true : false;
         }
 
-        public void Delete(string Account)
+        public bool Delete(string account)
         {
-            mongoDBHelper.Delete(x => x.Account == Account);
+            return mongoDBHelper.DeleteAsync(x => x.Account== account).Result.DeletedCount > 0 ? true : false;
         }
 
-        public void Edit(string Account, UpdateDefinition<user> Model)
+        public bool Edit(string account, user Model)
         {
-            mongoDBHelper.Edit(x => x.Account == Account, Model);
-        }
-
-
-        public void Update(UserModel userModel)
-        {
-            Console.WriteLine("数据库更新");
+            return mongoDBHelper.EditAsync(account, Model).Result.ModifiedCount > 0 ? true : false;
         }
     }
 }
