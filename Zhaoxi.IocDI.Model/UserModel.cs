@@ -7,25 +7,14 @@ using System.Text;
 
 namespace Zhaoxi.IocDI.Model
 {
-    public class UserModel
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string Account { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Role { get; set; }
-        public DateTime LoginTime { get; set; }
-
-    }
+    [Serializable]
     [BsonIgnoreExtraElements]
     public class user
     {
         [BsonId]
-        [JsonConverter(typeof(ObjectIdConverterExtensions))]
-        public Object _id { get; set; }
-
+        //如果Id是string类型，就使用下边这个特性,//如果Id是ObjectId类型，就使用后边边这个特性 [JsonConverter(typeof(ObjectIdConverterExtensions))]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public string Account { get; set; }

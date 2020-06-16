@@ -83,7 +83,7 @@ namespace Zhaoxi.Helper
             MongoDBClient = new MongoClient(Conn);
             MongoDBDatebase = MongoDBClient.GetDatabase(DBName);
             Type type = typeof(T);
-            collection = MongoDBDatebase.GetCollection<T>(type.Name);
+            collection = MongoDBDatebase.GetCollection<T>(type.Name.ToLower());
         }
         /// <summary>
         /// 异步分页查询集合

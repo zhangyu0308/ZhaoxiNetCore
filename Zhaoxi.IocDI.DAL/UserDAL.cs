@@ -29,7 +29,7 @@ namespace Zhaoxi.IocDI.DAL
         }
         public bool AddOnec(user Model)
         {
-            Model._id = ObjectId.GenerateNewId();
+            Model.Id = ObjectId.GenerateNewId().ToString();
             return mongoDBHelper.AddOnecAsync(Model).Result > 0 ? true : false;
         }
 

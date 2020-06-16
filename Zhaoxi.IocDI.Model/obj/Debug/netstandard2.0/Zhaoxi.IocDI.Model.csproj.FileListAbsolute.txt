@@ -18,9 +18,8 @@ D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaox
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Model.deps.json
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Model.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Model.pdb
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.csprojAssemblyReference.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.AssemblyInfoInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.AssemblyInfo.cs
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.csproj.CoreCompileInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.pdb
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Model\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Model.csproj.CoreCompileInputs.cache

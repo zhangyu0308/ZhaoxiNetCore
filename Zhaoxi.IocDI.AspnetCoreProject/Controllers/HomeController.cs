@@ -31,7 +31,7 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
 
             //新增
             //user user = new user();
-            //user.Account = "123";
+            //user.Account = "555";
             //user.Age = 14;
             //user.Name = "zy";
             //this._userBLL.AddOnec(user);
