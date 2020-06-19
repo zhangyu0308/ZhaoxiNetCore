@@ -20,6 +20,10 @@ namespace Zhaoxi.Helper
         /// <summary>
         /// 数据库类型：MySql
         /// </summary>
-        MySql
+        MySql,
+        /// <summary>
+        /// 数据库类型：MongoDB
+        /// </summary>
+        MongoDB
     }
 }

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Zhaoxi.Helper;
 using Zhaoxi.IocDI.BLL;
 using Zhaoxi.IocDI.DAL;
 using Zhaoxi.IocDI.IBLL;
@@ -30,6 +31,7 @@ namespace Zhaoxi.IocDI.AspnetCoreProject
             services.AddTransient<IUserDAL, UserDAL>();
             services.AddTransient<IUserBLL, UserBLL>();
             services.AddControllersWithViews();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

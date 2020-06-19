@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MongoDB.Driver;
 using Zhaoxi.Helper;
 using Zhaoxi.IocDI.AspnetCoreProject.Models;
 using Zhaoxi.IocDI.IBLL;
@@ -18,19 +19,50 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
         private readonly ILogger<HomeController> _logger;
 
         private IUserBLL _userBLL;
-        private IUserDAL _userDAL;
 
-        public HomeController(ILogger<HomeController> logger, IUserBLL userBLL, IUserDAL userDAL)
+        public HomeController(ILogger<HomeController> logger, IUserBLL userBLL)
         {
             _logger = logger;
             this._userBLL = userBLL;
-            this._userDAL = userDAL;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var model = this._userBLL.Login("123");
-            var userlist = await new MongoDBHelper<UserModel>().AllAsync();
+
+            //新增
+            //user user = new user();
+            //user.Account = "555";
+            //user.Age = 14;
+            //user.Name = "zy";
+            //this._userBLL.AddOnec(user);
+
+
+            //查找全部
+            var list = new List<FilterDefinition<user>>();
+            list.Add(Builders<user>.Filter.Where(x => true));
+            var filter = Builders<user>.Filter.And(list);
+            var sort = Builders<user>.Sort.Descending("Age");
+            var searchAllList = this._userBLL.FindListAsync(filter, sort);
+            ViewBag.SearchUserList = searchAllList;
+
+            //条件查找
+            //var wherelist = new List<FilterDefinition<user>>();
+            //wherelist.Add(Builders<user>.Filter.Eq("Account", "rrr"));
+            //var wherefilter = Builders<user>.Filter.And(wherelist);
+            //var searchWhereList = this._userBLL.FindListAsync(wherefilter, sort);
+            //ViewBag.SearchUserList = searchWhereList;
+
+            //删除
+            //this._userBLL.Delete(searchWhereList.FirstOrDefault().Account);
+
+            //修改，先写修改的条件，然后是修改的字段
+            //var firstmodel = searchAllList.FirstOrDefault();
+            //firstmodel.Email = "123@qwe.com";
+            //firstmodel.Password = "123456";
+            //firstmodel.Role = "admin";
+            //firstmodel.Age = 18;
+            //this._userBLL.Edit(firstmodel.Account, firstmodel);
+
             return View();
         }
 

@@ -26,6 +26,7 @@ D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaox
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.deps.json
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\HcCrm.Util.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.Helper.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.DAL.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.dll
@@ -33,6 +34,7 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.DAL.pdb
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.IDAL.pdb
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.IocDI.Model.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\HcCrm.Util.pdb
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\bin\Debug\netstandard2.0\Zhaoxi.Helper.pdb
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.csprojAssemblyReference.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.IBLL\obj\Debug\netstandard2.0\Zhaoxi.IocDI.IBLL.AssemblyInfoInputs.cache
