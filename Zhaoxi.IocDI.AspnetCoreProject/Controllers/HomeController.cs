@@ -37,13 +37,22 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
             //this._userBLL.AddOnec(user);
 
 
-            //查找全部
+            //全部查找
             var list = new List<FilterDefinition<user>>();
             list.Add(Builders<user>.Filter.Where(x => true));
             var filter = Builders<user>.Filter.And(list);
             var sort = Builders<user>.Sort.Descending("Age");
             var searchAllList = this._userBLL.FindListAsync(filter, sort);
             ViewBag.SearchUserList = searchAllList;
+
+            //分页查找
+            //var list = new List<FilterDefinition<user>>();
+            //list.Add(Builders<user>.Filter.Where(x => true));
+            //var filter = Builders<user>.Filter.And(list);
+            //var sort = Builders<user>.Sort.Descending("Age");
+            //var searchAllList = this._userBLL.FindListByPage(filter,1,2,null, sort);
+            //ViewBag.SearchUserList = searchAllList;
+
 
             //条件查找
             //var wherelist = new List<FilterDefinition<user>>();
