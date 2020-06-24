@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9MUGj+EX64wZFZ70sK8/yfeg4ynaL4oT8jc8hNCDk9baWj6MlxxWMAMf3TNculeYveJDanANbBzeHQmTrNtkg==",
+  "dgSpecHash": "5FpjiYPF5wsCDQKrSO6zjJUZFogmTU+fIfjGmBCtyOOIcwbQ90swV8AJpG8EMhA0BuN+GQfoOnqvdcCoGjsKWw==",
   "success": true,
-  "projectFilePath": "D:\\project\\netcore\\ZhaoxiNetCoreDemo\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
+  "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.IocDI.ConsoleProject\\Zhaoxi.IocDI.ConsoleProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
