@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Elasticsearch.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
+using Nest;
 using Zhaoxi.Helper;
 using Zhaoxi.IocDI.AspnetCoreProject.Models;
 using Zhaoxi.IocDI.IBLL;
@@ -71,6 +73,47 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
             //firstmodel.Role = "admin";
             //firstmodel.Age = 18;
             //this._userBLL.Edit(firstmodel.Account, firstmodel);
+
+            //ES
+            //var uris = new[] { new Uri("http://localhost:9200") };
+            //var connectionPool = new SniffingConnectionPool(uris);
+            //var settings = new ConnectionSettings(connectionPool).DefaultIndex("zhaoxi");
+            //var client = new ElasticClient(settings);
+
+            //创建客户端
+            //var uris = new[] { new Uri("http://localhost:9200") };
+            //var connectionPool = new SniffingConnectionPool(uris);
+            //var settings = new ConnectionSettings(connectionPool);
+            //var client = new ElasticClient(settings);
+
+            //创建索引
+            //CreateIndexResponse createIndexResponse = client.Indices.Create("zhaoxi1");
+
+            //索引是否存在
+            // var existsResponse = client.Indices.Exists("zhaoxi1");
+            //if (existsResponse.Exists)
+            //{
+            //    DeleteIndexResponse deleteIndexResponse = client.Indices.Delete("zhaoxi1");
+            //    var isdelete = deleteIndexResponse.Acknowledged;
+            //}
+
+            //user user = new user();
+            //user.Account = "555";
+            //user.Age = 14;
+            //user.Name = "zy";
+            //var indexResponse = client.IndexDocument(user);
+
+            //            var searchResponse = client.Search<user>(s => s
+            //    .From(0)
+            //    .Size(10)
+            //    .Query(q => q
+            //         .Match(m => m
+            //            .Field(f => f.Name)
+            //            .Query("zy")
+            //         )
+            //    )
+            //);
+            //            var people = searchResponse.Documents;
 
             return View();
         }

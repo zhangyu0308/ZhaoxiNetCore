@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Controllers\uenfnski.hlq~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="7.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Zhaoxi.Helper\Zhaoxi.Helper.csproj" />
     <ProjectReference Include="..\Zhaoxi.IocDI.BLL\Zhaoxi.IocDI.BLL.csproj" />
     <ProjectReference Include="..\Zhaoxi.IocDI.DAL\Zhaoxi.IocDI.DAL.csproj" />

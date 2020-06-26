@@ -131,6 +131,10 @@
               "target": "Package",
               "version": "[2.10.4, )"
             },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -224,6 +228,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -141,8 +141,6 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProj
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.csprojAssemblyReference.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.AssemblyInfoInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.AssemblyInfo.cs
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.csproj.CoreCompileInputs.cache
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.MvcApplicationPartsAssemblyInfo.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.RazorAssemblyInfo.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.RazorAssemblyInfo.cs
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.TagHelpers.input.cache
@@ -164,3 +162,7 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProj
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.pdb
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.genruntimeconfig.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Nest.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.csproj.CoreCompileInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.MvcApplicationPartsAssemblyInfo.cache
