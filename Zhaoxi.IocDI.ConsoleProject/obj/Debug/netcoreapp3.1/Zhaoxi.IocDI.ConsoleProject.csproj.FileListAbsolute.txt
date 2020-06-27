@@ -11,3 +11,16 @@ D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaox
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.dll
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.pdb
 D:\project\netcore\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.genruntimeconfig.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.exe
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.deps.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.runtimeconfig.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.runtimeconfig.dev.json
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\bin\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.csprojAssemblyReference.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.AssemblyInfoInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.AssemblyInfo.cs
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.csproj.CoreCompileInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.pdb
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.ConsoleProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.ConsoleProject.genruntimeconfig.cache
