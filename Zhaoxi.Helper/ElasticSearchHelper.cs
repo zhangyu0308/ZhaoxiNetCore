@@ -118,27 +118,118 @@ namespace Zhaoxi.Helper
             }
         }
 
+        /// <summary>
+        /// 查找全部
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<List<T>> FindAll()
+        {
+            var list = await client.SearchAsync<T>();
+            return list.Documents.ToList();
+        }
 
+        /// <summary>
+        /// 根据条件搜索查找全部
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<List<T>> FindWhere(SearchDescriptor<T> searchwhere)
+        {
+            var list = await client.SearchAsync<T>(searchwhere);
+            return list.Documents.ToList();
+        }
 
-        #region 文档操作
+        /// <summary>
+        /// 根据条件搜索查找全部
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<List<T>> FindWhere(SearchRequest<T> searchwhere)
+        {
+            var list = await client.SearchAsync<T>(searchwhere);
+            return list.Documents.ToList();
+        }
+        /// <summary>
+        /// 查找一个
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<T> FindOne(string id)
+        {
+            var one = await client.GetAsync<T>(id);
+            return one.Source;
+        }
+
         /// <summary>
         /// 插入
         /// </summary>
         /// <param name="t"></param>
         /// <returns></returns>
-        public async Task<int> InsertEntityAsync(T t)
+        public async Task<bool> InsertManyEntityAsync(List<T> t)
+        {
+            try
+            {
+                var task = await client.IndexManyAsync(t);
+                return task.IsValid;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+        /// <summary>
+        /// 插入
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public async Task<bool> InsertEntityAsync(T t)
         {
             try
             {
                 var task = await client.IndexDocumentAsync(t);
-                return 1;
+                return task.IsValid;
             }
             catch (Exception ex)
             {
-                return 0;
+                return false;
             }
         }
 
-        #endregion
+        /// <summary>
+        /// 更新
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public async Task<bool> UpdateEntityAsync(string id, T t)
+        {
+            try
+            {
+                var task = await client.UpdateAsync<T>(id, x => x.Doc(t));
+                return task.IsValid;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        ///删除
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public async Task<bool> DeleteEntityAsync(string id)
+        {
+            try
+            {
+                var task = await client.DeleteAsync<T>(id);
+                return task.IsValid;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

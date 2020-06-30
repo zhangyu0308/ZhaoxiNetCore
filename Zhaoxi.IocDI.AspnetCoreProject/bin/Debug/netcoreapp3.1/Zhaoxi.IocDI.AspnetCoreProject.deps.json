@@ -2613,6 +2613,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
           "MongoDB.Driver": "2.10.4",
+          "NEST": "7.8.0",
           "NuGet.Configuration": "5.6.0",
           "Pomelo.EntityFrameworkCore.MySql": "3.1.1"
         },
