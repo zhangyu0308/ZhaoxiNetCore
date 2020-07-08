@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RzcLeLL/Lml5KpWLWDDyyBRcUIciY1tcesQ7Mx8R/JIkOh3jSbu5HO4yvBXvpB8g1TEP1WbYnQFwRENCA6txng==",
+  "dgSpecHash": "LJ1FARngEnpDMT59WhPyubd3opTQAImJJxenQC3extgoolP92pT/WDEz5H8YPd3b885EoXVwipfEzQB6z0TllA==",
   "success": true,
   "projectFilePath": "D:\\ProjectsCode\\C#\\Zhaoxi\\ZhaoxiToggle\\ZhaoxiNetCore\\Zhaoxi.Helper\\Zhaoxi.Helper.csproj",
   "expectedPackageFiles": [
@@ -118,6 +118,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nest\\7.8.0\\nest.7.8.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newlife.core\\8.8.2020.701\\newlife.core.8.8.2020.701.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newlife.redis\\3.7.2020.701\\newlife.redis.3.7.2020.701.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nuget.common\\5.6.0\\nuget.common.5.6.0.nupkg.sha512",
