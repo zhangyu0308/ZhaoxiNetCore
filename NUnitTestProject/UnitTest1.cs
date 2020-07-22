@@ -147,5 +147,25 @@ namespace NUnitTestProject
             var list = await elasticSearchExtend.FindWhere(searchRequest);
             Assert.Pass();
         }
+
+
+        [Test]
+        public void Test11()
+        {
+            //创建单个生产者 
+            // RabbitMQProductionConsumer.CreateSingleProducer();
+
+            //生产者接收到请求时Received事件
+            //RabbitMQProductionConsumer.ReveicedProducerEvent();
+
+            //多个生产者,多个线程同时开始
+            //生产者01
+            // Task.Run(() => { RabbitMQProductionConsumer.CreateMutiProducer(1); });
+            //生产者02
+            //Task.Run(() => { RabbitMQProductionConsumer.CreateMutiProducer(2); });
+
+            //Assert.IsTrue(re);
+            Assert.Pass();
+        }
     }
 }

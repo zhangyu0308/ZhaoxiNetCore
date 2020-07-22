@@ -1,8 +1,7 @@
-bin
-obj
-
-
-
+HcCrm.Util\bin
+HcCrm.Util\obj
+NUnitTestProject\bin
+NUnitTestProject.Util\obj
 
 .vs/Zhaoxi.IocDI.ConsoleProject/v16/.suo
 .vs/Zhaoxi.IocDI.ConsoleProject/v16/.suo

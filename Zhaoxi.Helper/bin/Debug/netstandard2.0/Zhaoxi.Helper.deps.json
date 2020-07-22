@@ -17,6 +17,7 @@
           "MongoDB.Driver": "2.10.4",
           "NEST": "7.8.0",
           "NETStandard.Library": "2.0.3",
+          "NewLife.Redis": "3.7.2020.701",
           "NuGet.Configuration": "5.6.0",
           "Pomelo.EntityFrameworkCore.MySql": "3.1.1"
         },
@@ -1482,6 +1483,25 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "NewLife.Core/8.8.2020.701": {
+        "runtime": {
+          "lib/netstandard2.0/NewLife.Core.dll": {
+            "assemblyVersion": "8.8.7487.41595",
+            "fileVersion": "8.8.2020.701"
+          }
+        }
+      },
+      "NewLife.Redis/3.7.2020.701": {
+        "dependencies": {
+          "NewLife.Core": "8.8.2020.701"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewLife.Redis.dll": {
+            "assemblyVersion": "3.7.7488.26741",
+            "fileVersion": "3.7.2020.701"
+          }
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -3735,6 +3755,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NewLife.Core/8.8.2020.701": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J2jKimdtAuOdXBepl7Z6uuStyj2IbYiGOFFwEp3E5Qxy7XCW85Nm5b49eB72BfiXlYc6l6OQLksaoQyVw/ZnHA==",
+      "path": "newlife.core/8.8.2020.701",
+      "hashPath": "newlife.core.8.8.2020.701.nupkg.sha512"
+    },
+    "NewLife.Redis/3.7.2020.701": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uBHbPOQzKj6qVDGHs8N92buh4YFX3hAgdf1PHmWwFMtUhiVRTyyGWJNiBIli13dg6I+Pe9u+gBsZkr9GgRsHSw==",
+      "path": "newlife.redis/3.7.2020.701",
+      "hashPath": "newlife.redis.3.7.2020.701.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
