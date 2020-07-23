@@ -164,6 +164,26 @@ namespace NUnitTestProject
             //生产者02
             //Task.Run(() => { RabbitMQProductionConsumer.CreateMutiProducer(2); });
 
+            //DirectExchange
+            //Exchange.DirectExchangeProducer();
+            //Exchange.DirectExchangeConsumerLogAll();
+            //Exchange.DirectExchangeConsumerLogError();
+
+
+            //FanoutExchange
+            //Exchange.FanoutExchangeProducer();
+            //Exchange.FanoutExchangeConsumer("Consumer001");
+            //Exchange.FanoutExchangeConsumer("Consumer002");
+
+            //Priority 优先级
+            //PriorityQueue.PriorityProducer();
+            //key要对应上
+            //RabbitMQProductionConsumer.ReveicedProducerEventByConsumer();
+
+            //消息确认 2种方式: 1. Tx事务模式 2. Confirm模式:
+            //MessageAffirm.MessageTx();
+            //MessageAffirm.MessageComfirm();
+
             //Assert.IsTrue(re);
             Assert.Pass();
         }
