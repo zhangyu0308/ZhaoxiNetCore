@@ -164,5 +164,14 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProj
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.genruntimeconfig.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Nest.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\NewLife.Core.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\NewLife.Redis.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.csproj.CoreCompileInputs.cache
+D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.MvcApplicationPartsAssemblyInfo.cs
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.AspnetCoreProject\obj\Debug\netcoreapp3.1\Zhaoxi.IocDI.AspnetCoreProject.MvcApplicationPartsAssemblyInfo.cache

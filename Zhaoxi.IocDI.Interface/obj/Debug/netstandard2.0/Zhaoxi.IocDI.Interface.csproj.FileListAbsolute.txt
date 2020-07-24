@@ -23,4 +23,3 @@ D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.csproj.CoreCompileInputs.cache
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.dll
 D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.pdb
-D:\ProjectsCode\C#\Zhaoxi\ZhaoxiToggle\ZhaoxiNetCore\Zhaoxi.IocDI.Interface\obj\Debug\netstandard2.0\Zhaoxi.IocDI.Interface.csprojAssemblyReference.cache

@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.Helper", "Zhaoxi.Hel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HcCrm.Util", "HcCrm.Util\HcCrm.Util.csproj", "{CDACB2A9-0D37-4F4F-8D0B-88E8B6D98A67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{A56F7AC7-FB41-4207-85D4-506C87DFE090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{A56F7AC7-FB41-4207-85D4-506C87DFE090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApi", "NetCoreWebApi\NetCoreWebApi.csproj", "{4284EDED-0BFB-417F-A63A-504E9C721559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{A56F7AC7-FB41-4207-85D4-506C87DFE090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56F7AC7-FB41-4207-85D4-506C87DFE090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56F7AC7-FB41-4207-85D4-506C87DFE090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4284EDED-0BFB-417F-A63A-504E9C721559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4284EDED-0BFB-417F-A63A-504E9C721559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4284EDED-0BFB-417F-A63A-504E9C721559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4284EDED-0BFB-417F-A63A-504E9C721559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{0EDCA49F-806D-420C-8DDD-972282D385EA} = {B26096BB-078E-468F-90CB-EEE83C4B0C94}
 		{CDACB2A9-0D37-4F4F-8D0B-88E8B6D98A67} = {B26096BB-078E-468F-90CB-EEE83C4B0C94}
 		{A56F7AC7-FB41-4207-85D4-506C87DFE090} = {B26096BB-078E-468F-90CB-EEE83C4B0C94}
+		{4284EDED-0BFB-417F-A63A-504E9C721559} = {EF42F50F-7A87-414B-B75D-FAA7A610182C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33581A15-355E-45C7-A261-9A9E7B48CF40}

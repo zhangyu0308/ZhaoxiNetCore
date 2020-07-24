@@ -40,12 +40,12 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
 
 
             //全部查找
-            var list = new List<FilterDefinition<user>>();
-            list.Add(Builders<user>.Filter.Where(x => true));
-            var filter = Builders<user>.Filter.And(list);
-            var sort = Builders<user>.Sort.Descending("Age");
-            var searchAllList = this._userBLL.FindListAsync(filter, sort);
-            ViewBag.SearchUserList = searchAllList;
+            //var list = new List<FilterDefinition<user>>();
+            //list.Add(Builders<user>.Filter.Where(x => true));
+            //var filter = Builders<user>.Filter.And(list);
+            //var sort = Builders<user>.Sort.Descending("Age");
+            //var searchAllList = this._userBLL.FindListAsync(filter, sort);
+            //ViewBag.SearchUserList = searchAllList;
 
             //分页查找
             //var list = new List<FilterDefinition<user>>();
