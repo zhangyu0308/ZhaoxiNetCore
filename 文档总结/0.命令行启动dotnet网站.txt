@@ -1,0 +1,17 @@
+1. 进入bin/Debug/netcoreapp3.1 目录，在文件夹目录写下cmd（这样不用在cmd切换到该目录了，省事）,需要把 wwwroot也拷贝过去，这个是样式文件
+2. 执行命令 dotnet Zhaoxi.MicroService.ClientDemo.dll --urls="http://*:5177" --ip="127.0.0.1" --port=5177(dotnet Zhaoxi.AspNetCore31.PractcalDemo.dll --urls="http://*:5177" --ip="127.0.0.1" --port=5177)
+
+consul.exe agent -dev
+
+dotnet Zhaoxi.MicroService.ServiceInstance.dll --urls="http://*:5726" --ip="127.0.0.1" --port=5726
+dotnet Zhaoxi.MicroService.ServiceInstance.dll --urls="http://*:5727" --ip="127.0.0.1" --port=5727
+dotnet Zhaoxi.MicroService.ServiceInstance.dll --urls="http://*:5728" --ip="127.0.0.1" --port=5728
+
+dotnet Zhaoxi.MicroService.ServiceInstance.dll --urls="http://*:5728" --ip="127.0.0.1" --port=5728
+
+dotnet Zhaoxi.CacheDemo.dll --urls="http://*:5177" --ip="127.0.0.1" --port=5177
+dotnet Zhaoxi.CacheDemo.dll --urls="http://*:5178" --ip="127.0.0.1" --port=5178
+dotnet Zhaoxi.CacheDemo.dll --urls="http://*:5179" --ip="127.0.0.1" --port=5179
+
+	Zhaoxi.AspNetCore31.PracticalDemo.dll 是当前项目的dll，紧挨着它的是一个exe文件
+3. 如果想把网站指向这个目录，需要添加webconfig（发布网站时会生成，直接拷贝过来就行）
