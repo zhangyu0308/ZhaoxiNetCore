@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace NetCoreWebApi.Controllers
 {
@@ -21,6 +22,24 @@ namespace NetCoreWebApi.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+        }
+
+        /// <summary>
+        /// 跨域
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetCrossDomainData")]
+        public string GetCrossDomainData()
+        {
+            //设置浏览器允许跨域请求
+            base.HttpContext.Response.Headers.Add("Access-Control-Allow-Origin","*");
+            return JsonConvert.SerializeObject(new
+            {
+                Id = 123,
+                Name = "wwe",
+                Desc = "跨域api"
+            });
         }
 
         [HttpGet]

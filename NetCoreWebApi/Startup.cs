@@ -47,19 +47,19 @@ namespace NetCoreWebApi
             var issuer = this.Configuration["issuer"];
             var SecurityKey = this.Configuration["SecurityKey"];
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)//默认授权机制
-                .AddJwtBearer(options=> {
-                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                    {
-                        ValidateIssuer = true,//是否验证
-                        ValidateAudience=true,
-                        ValidateLifetime=true,
-                        ValidateIssuerSigningKey=true,
-                        ValidAudience= audience,
-                        ValidIssuer= issuer,
-                        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecurityKey))
-                    };
-                });
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)//默认授权机制
+            //    .AddJwtBearer(options=> {
+            //        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            //        {
+            //            ValidateIssuer = true,//是否验证
+            //            ValidateAudience=true,
+            //            ValidateLifetime=true,
+            //            ValidateIssuerSigningKey=true,
+            //            ValidAudience= audience,
+            //            ValidIssuer= issuer,
+            //            IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecurityKey))
+            //        };
+            //    });
 
             #endregion
 
