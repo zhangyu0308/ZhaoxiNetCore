@@ -190,6 +190,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -210,6 +214,10 @@
               "target": "Package",
               "version": "[2.10.4, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
             "NEST": {
               "target": "Package",
               "version": "[7.8.0, )"
@@ -227,10 +235,6 @@
             "NuGet.Configuration": {
               "target": "Package",
               "version": "[5.6.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[3.1.1, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

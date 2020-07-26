@@ -30,14 +30,12 @@ namespace Zhaoxi.IocDI.AspnetCoreProject.Controllers
 
         public IActionResult Index()
         {
-
             //新增
             //user user = new user();
             //user.Account = "555";
             //user.Age = 14;
             //user.Name = "zy";
             //this._userBLL.AddOnec(user);
-
 
             //全部查找
             //var list = new List<FilterDefinition<user>>();
