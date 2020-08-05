@@ -78,7 +78,7 @@ namespace NetCoreWebApi
                 s.SwaggerEndpoint("/swagger/V1/swagger.json", "test1");
             });
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
 
             //通过中间件来进行鉴权授权

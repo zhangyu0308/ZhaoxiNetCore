@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Zhaoxi.IocDI.Service\Zhaoxi.IocDI.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SignalR\" />
+  </ItemGroup>
+
 </Project>

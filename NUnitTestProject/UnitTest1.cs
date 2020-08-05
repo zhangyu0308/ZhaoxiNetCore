@@ -2,6 +2,7 @@ using Nest;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Zhaoxi.Helper;
 using Zhaoxi.IocDI.Model;
@@ -185,6 +186,42 @@ namespace NUnitTestProject
             //MessageAffirm.MessageComfirm();
 
             //Assert.IsTrue(re);
+            Assert.Pass();
+        }
+
+
+        [Test]
+        public void Test12()
+        {
+            #region 开启线程
+            //开启线程
+            ThreadStart threadStart = () =>
+            {
+                Thread.Sleep(500);
+                Console.WriteLine($"开启线程,线程id:" + Thread.CurrentThread.ManagedThreadId + ",时间:" + DateTime.Now);
+            };
+            Thread thread = new Thread(threadStart);
+            thread.Start(); //开启
+
+            //thread.Suspend();//挂起
+            //thread.Resume();//恢复(不是实时挂起和恢复，有可能延迟，因为CPU分片)
+
+            //thread.Abort();//终结线程并抛出异常
+            //Thread.ResetAbort();//把终结的线程再次启用
+
+            //thread.Priority = ThreadPriority.Highest;//优先级，提高倍率的优先级，并不绝对。
+
+            //thread.IsBackground = true;//后台线程,进程结束，线程就结束,
+            //thread.IsBackground = false;//前台线程，进程结束后，任务也结束，线程才接受
+
+            //thread.ThreadState != ThreadState.Running;//线程状态
+
+            //thread.Join(200);//限时等待，会阻塞，等待线程结束
+
+
+            //ThreadPool.QueueUserWorkItem(o=>);
+
+            #endregion
             Assert.Pass();
         }
     }
